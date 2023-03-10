@@ -17,6 +17,8 @@ public class MovieService {
     private MovieRepository movieRepository;
     public List<Movie> allMovies(){
 
+        //this method finds all movies in mongo
+
         return movieRepository.findAll();
 
     }
